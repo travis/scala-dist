@@ -55,6 +55,7 @@
 
 
 ;; Attach .scala files to the scala-mode
+;;;###autoload
 (add-to-list 'auto-mode-alist '("\\.scala\\'" . scala-mode))
 (modify-coding-system-alist 'file "\\.scala$"     'utf-8)
 
